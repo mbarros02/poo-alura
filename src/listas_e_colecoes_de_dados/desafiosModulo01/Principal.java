@@ -1,4 +1,4 @@
-package aula01;
+package listas_e_colecoes_de_dados.desafiosModulo01;
 
 import java.util.ArrayList;
 

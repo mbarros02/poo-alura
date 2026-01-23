@@ -1,4 +1,4 @@
-package aula02;
+package listas_e_colecoes_de_dados.desafiosModulo02;
 
 public class Produto {
     private String nome;

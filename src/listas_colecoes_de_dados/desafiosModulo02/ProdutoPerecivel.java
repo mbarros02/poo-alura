@@ -1,4 +1,4 @@
-package listas_e_colecoes_de_dados.desafiosModulo02;
+package listas_colecoes_de_dados.desafiosModulo02;
 
 public class ProdutoPerecivel extends Produto{
 

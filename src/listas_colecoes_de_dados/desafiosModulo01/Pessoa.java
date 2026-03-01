@@ -1,4 +1,4 @@
-package listas_e_colecoes_de_dados.desafiosModulo01;
+package listas_colecoes_de_dados.desafiosModulo01;
 
 public class Pessoa {
     private String nome;

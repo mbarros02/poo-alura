@@ -1,4 +1,4 @@
-package listas_e_colecoes_de_dados.desafiosModulo02;
+package listas_colecoes_de_dados.desafiosModulo02;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,12 +17,9 @@ public class Main {
         produtos.add(p3);
 
 
-        System.out.println(pr);
-        /*System.out.println(produtos);
+        System.out.println(produtos);
         System.out.println("Quantidade de produtos na lista: " + produtos.size());
-        System.out.println("Pesquisando o produto da posição 2: " + produtos.get(2));*/
-
-        Collections.sort();
+        System.out.println("Pesquisando o produto da posição 2: " + produtos.get(2));
 
     }
 }

@@ -15,9 +15,11 @@ public class Principal {
         listaAnimal.add(cat);
 
         for (Animal dog : listaAnimal) {
-            System.out.println(dog.getNome());
-            if (dog instanceof Animal animal) {
+            System.out.println("Nome: " + dog.getNome());
+            if (dog instanceof Cachorro cachorro) {
                 dog.emitirSom();
+            } else {
+                System.out.println(dog.getNome() + " não emite som porque não é cachorro!");
             }
         }
     }

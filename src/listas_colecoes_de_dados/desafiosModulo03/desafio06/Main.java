@@ -30,5 +30,5 @@ public class Main {
         System.out.println("--------- Sistema Encerrado -------");
         listaContas.sort(Comparator.comparing(ContaBancaria::getSaldo));
         System.out.println(listaContas);
-    }
+     }
 }

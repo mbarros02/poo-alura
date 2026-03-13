@@ -1,4 +1,27 @@
 package listas_colecoes_de_dados.zdesafioFinal;
 
 public class Cartao {
+
+    private double limite;
+    private double saldo;
+
+    public Cartao(double limite) {
+        this.limite = limite;
+    }
+
+    public double getLimite() {
+        return limite;
+    }
+
+    public void setLimite(double limite) {
+        this.limite = limite;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
 }

@@ -17,7 +17,6 @@ public class Menu {
         System.out.println("Digite o limite do seu cartão: ");
         valorCartao = scan.nextDouble();
         Cartao cartao = new Cartao(valorCartao);
-        cartao.setSaldo(valorCartao);
 
         do {
 
